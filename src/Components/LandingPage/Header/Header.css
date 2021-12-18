@@ -1,10 +1,11 @@
+
 .navbar h2{
     font-size: 2em  !important;
-    color: #6E3CBC;
+    color: #1d3557;
 }
 .navbar li p{
     font-size: 1.3em !important;
-    color: #6E3CBC !important;
+    color: #1d3557 !important;
 cursor: pointer;
 font-weight: 600;
 }

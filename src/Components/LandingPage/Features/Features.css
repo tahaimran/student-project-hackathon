@@ -1,0 +1,26 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.features{
+    margin: 100px auto !important;
+    margin-bottom: 40px !important;
+}
+.features h2, h3{
+    color: #050517;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.features .icons{
+    cursor: pointer;
+    color: #CF5C36;
+
+}
+.features .icons:hover{
+    color: #050517;
+    transition: 0.3s ease-in-out;
+    
+}
+.features p{
+    font-size: 18px;
+}

@@ -1,0 +1,24 @@
+.why{
+    margin-top: 100px !important;
+}
+.why h2{
+    color: #050517;
+    font-size: 2.5em !important;
+}
+.why .list{
+    margin-top: 20px;
+}
+.why .list li{
+    list-style-type: none;
+    font-size: 1.4em;
+    margin: 5px;
+    padding: 10px;
+    box-shadow: -10px 2px 4px 0 #0B032D !important;
+    cursor: pointer;
+ 
+}
+.why .list li:hover{
+    transform:scale(1.05);
+  transition-duration: 0.5s;
+
+}

@@ -1,11 +1,14 @@
 import React from 'react'
-
-function Router() {
+import {BrowserRouter as Router,Route,Routes} from "react-router-dom";
+import LandingPage from '../Components/LandingPage/LandingPage';
+function AppRouter() {
     return (
-        <div>
-            
-        </div>
+        <Router>
+            <Routes>
+                <Route  exact path='/' element={<LandingPage/>}/>
+            </Routes>
+        </Router>
     )
 }
 
-export default Router
+export default AppRouter
