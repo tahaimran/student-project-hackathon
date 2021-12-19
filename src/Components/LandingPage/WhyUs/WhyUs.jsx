@@ -4,8 +4,8 @@ import './WhyUs.css'
 function WhyUs() {
     return (
         <div className='container why'>
-            <div className='row'>
             <h2 className='title-text text-center'>Why Choose Us</h2>
+            <div className='row d-flex flex-wrap-reverse'>
                 <div className="col-md-6 d-flex flex-column justify-content-center">
                     <div className='list'>
                         <li>Organize All Your Study Material At One Place</li>

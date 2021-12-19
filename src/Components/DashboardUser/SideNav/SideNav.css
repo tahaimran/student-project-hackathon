@@ -1,19 +1,24 @@
 .Navigation{
-    background-color: #030027;
+    background-color: #4A5859;
     height: 100vh  ;
-    float: left;
-    transform: translateX(45deg);
-    transition: 1s ease-out;
+    float: left !important;
+    animation: openModal 0.5s ease-out ;
+
 }
 .NavigationChange{
     display: none !important;
- 
+
 }
+.Navigation h5{
+    color: #f2f3d9;
+
+}
+
 .Navigation ul{
     padding: 20px;
     list-style-type: none;
 }
-.Navigation ul li{
+.Navigation ul li {
     margin-top: 80px;
     font-weight: 600;
     font-size: 25px;
@@ -23,12 +28,17 @@
 
 .Navigation ul li:hover{
     cursor: pointer;
-    background-color: #151E3F;
-    transition: 0.2s ease-in-out;
-    border-top: 1px solid #f2f3d9;
+    background-color: #FDFFFC;
+    transition: 0.5s ease-in-out;
+    color: #4A5859;
     border-radius: 20px;
 }
 
 .ham{
     border:none;
+}
+
+@keyframes openModal {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(0);   }
 }

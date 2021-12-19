@@ -1,0 +1,52 @@
+.todo {
+    padding: 20px;
+    background-color: #EF7674;
+    width: 500px;
+    margin: 30px auto !important;
+    border-radius: 50px;
+    height: 50vh;
+}
+
+.todo button {
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    padding: 10px;
+    background-color: #F5853F;
+    color: white;
+    cursor: pointer;
+}
+
+.todo input {
+    background-color: #F3D8C7;
+    width: 300px;
+    border: none;
+    padding: 10px;
+    outline: none;
+    color: #511730;
+}
+
+.todo h3 {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #FBFEFB;
+
+}
+
+.todo>div {
+    margin-top: 20px;
+}
+
+.todo li {
+    list-style-type:none;
+    color: #031A6B;
+    padding-right: 50px;
+    font-weight: 600;
+
+}
+
+.todo .icon {
+    cursor: pointer;
+    color: black;
+    padding-left: 50px;
+
+}

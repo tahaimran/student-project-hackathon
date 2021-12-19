@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.css'
+import Button from '../../Button'
 function Header() {
     return (
         <div>
@@ -15,7 +16,7 @@ function Header() {
                   <p className="nav-link">Our Team</p>
                 </li>
                 <li className="nav-item">
-                  <p className="nav-link ">Dashboard</p>
+                  <Button />
                 </li>
               </ul>
             </div>

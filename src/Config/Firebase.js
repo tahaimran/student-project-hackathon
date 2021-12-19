@@ -3,9 +3,7 @@ import {
 } from "firebase/app";
 
 import {
-    getAuth,
-    GoogleAuthProvider,
-    signInWithPopup
+    getAuth
 } from "firebase/auth";
 
 

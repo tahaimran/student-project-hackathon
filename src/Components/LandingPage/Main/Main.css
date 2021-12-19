@@ -13,18 +13,3 @@
     color: #1D3557;
 
 }
-
-.main button{
-    color: white;
-    background-color: #E63946;
-    padding: 10px;
-    width: 150px;
-    border: none;
-    border-radius: 50px;
-}
-.main button:hover{
-    background-color: #F1FAEE;
-    color: #000;
-    transition: 0.5s ease-in-out;
-    border: 2px solid #E63946;
-}
