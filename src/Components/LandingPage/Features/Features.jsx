@@ -3,7 +3,7 @@ import './Features.css';
 import {Inventory2,PeopleAlt,Lightbulb} from '@mui/icons-material';
 function Features() {
     return (
-        <div className='container features'>
+        <div className='container-fluid features'>
             <div className="row text-center">
                 <h2 className='text-title mb-5'>OUR FEATURES</h2>
                 <div className="col-md-4">

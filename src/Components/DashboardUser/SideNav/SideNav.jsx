@@ -4,6 +4,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import './SideNav.css';
 import { signOut } from "firebase/auth";
 import {auth} from '../../../Config/Firebase'
+
 import { useNavigate } from 'react-router-dom';
 
 function SideNav() {
@@ -18,6 +19,7 @@ function SideNav() {
       // An error happened.
     });
 
+
     }
     return (
         <>
@@ -29,7 +31,7 @@ function SideNav() {
                    </div> 
                     <Link to='/dashboard/todolist'><li>To Do List</li></Link>
                     <Link to='/dashboard/Study'> <li>Study</li></Link>
-                    <Link to='/'> <li>Chat</li></Link>
+                    <Link to='/dashboard/404'> <li>Chat</li></Link>
                     <Link to='/dashboard/mentors'> <li>Mentors</li></Link>
                     <Link to='/dashboard/faq'><li>FAQ</li></Link>
                    <li onClick={singOutGoogle}>SignOut</li>

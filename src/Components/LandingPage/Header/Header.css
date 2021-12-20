@@ -9,4 +9,6 @@
 cursor: pointer;
 font-weight: 600;
 }
- 
+ .logo{
+     width: 100px;
+ }

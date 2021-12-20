@@ -1,9 +1,11 @@
 .why{
     margin-top: 100px !important;
+    margin-bottom: 100px !important;
 }
 .why h2{
     color: #050517;
     font-size: 2.5em !important;
+    text-decoration: underline;
 }
 .why .list{
     margin-top: 20px;

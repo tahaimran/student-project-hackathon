@@ -4,9 +4,10 @@
 }
 .faq button {
     width: 300px;
-    border: 1px solid #E6FAFC;
+    border: 1px solid #6c7575;
     padding: 10px;
     cursor: pointer;
+    height: 50px;
 
 }
 .faq h2{

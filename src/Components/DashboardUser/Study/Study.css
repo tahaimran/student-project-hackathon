@@ -1,0 +1,32 @@
+.study input{
+    background-color: #F3D8C7;
+    width: 400px;
+    border: none;
+    padding: 10px;
+    outline: none;
+    color: #511730;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+.study button{
+    border: none;
+    padding: 10px;
+    margin-left: 95px;
+    background-color: #F5853F;
+    color: white;
+    cursor: pointer;
+    width: 150px;
+}
+.study li{
+    background-color: brown;
+    list-style-type: none;
+    color: white;
+    padding: 15px auto !important;
+    width: fit-content !important;
+}
+.study li p{
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 55px;
+}

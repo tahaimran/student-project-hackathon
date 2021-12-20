@@ -11,7 +11,7 @@ function Main() {
     <div className="container main ">
       <div className="row d-flex flex-wrap-reverse">
         <div className="col-md-6 info">
-          <h3>Let Etudiants Evolve The Way You Learn</h3>
+          <h2>Let Etudiants Evolve The Way You Learn</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
             modi natus error excepturi consequatur possimus laboriosam ipsum

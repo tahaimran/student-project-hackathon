@@ -4,23 +4,29 @@
 .features{
     margin: 100px auto !important;
     margin-bottom: 40px !important;
+    background-color: #f7b496;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 .features h2, h3{
-    color: #050517;
+    color: rgb(54, 50, 50);
     padding: 10px;
     font-weight: 700;
+    text-decoration: underline;
+
 }
 
 .features .icons{
     cursor: pointer;
-    color: #CF5C36;
+    color: #050517;
 
 }
 .features .icons:hover{
-    color: #050517;
+    color: white;
     transition: 0.3s ease-in-out;
     
 }
 .features p{
     font-size: 18px;
+    color: white;
 }

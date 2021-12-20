@@ -1,5 +1,5 @@
 .Navigation{
-    background-color: #4A5859;
+    background-color: #123D6A;
     height: 100vh  ;
     float: left !important;
     animation: openModal 0.5s ease-out ;
@@ -19,17 +19,19 @@
     list-style-type: none;
 }
 .Navigation ul li {
-    margin-top: 80px;
+    margin-top: 60px;
     font-weight: 600;
     font-size: 25px;
-    color: #f2f3d9;
+    color: #f5f5ef;
+    text-decoration: none !important;
+    border: 1px solid white;
 
 }
 
 .Navigation ul li:hover{
     cursor: pointer;
     background-color: #FDFFFC;
-    transition: 0.5s ease-in-out;
+    transition: 0.2s ease-in-out;
     color: #4A5859;
     border-radius: 20px;
 }

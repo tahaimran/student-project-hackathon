@@ -1,0 +1,17 @@
+.dashboard button {
+    color: white;
+    background-color: #E63946;
+    padding: 10px;
+    margin-top: 5px;
+    width: 150px;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+.dashboard h2{
+    color: #2b384b;
+    font-weight: 800 !important;
+    margin-bottom: 15px;
+}

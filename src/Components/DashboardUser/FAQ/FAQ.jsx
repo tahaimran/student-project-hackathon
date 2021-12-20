@@ -10,8 +10,9 @@ function FAQ() {
 
             <div className='container faq text-center mt-5'>
                 <h2>Contact Us</h2>
-                <div className='row '>
+                <div className='row d-flex align-items-center justify-content-center'>
                 <img className='img-fluid col-md-6 ' src={Contact} alt="" />
+                
                 <button className='mt-5 col-md-6'>
                     <Google sx={{ color: '#FF6B6B' }} />
                     <a href='mailto:tahaimran.24@gmail.com'>
