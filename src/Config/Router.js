@@ -4,6 +4,8 @@ import LandingPage from '../Components/LandingPage/LandingPage';
 import DashboardUser from '../Components/DashboardUser/DashboardUser';
 import ToDoList from '../Components/DashboardUser/ToDoList/ToDoList'
 import FAQ from '../Components/DashboardUser/FAQ/FAQ';
+import Mentors from '../Components/DashboardUser/Mentors/Mentors';
+import Study from '../Components/DashboardUser/Study/Study';
 function AppRouter() {
     return (
         <Router>
@@ -12,7 +14,8 @@ function AppRouter() {
                 <Route   path='/dashboard' element={<DashboardUser/>}/>
                 <Route   path='/dashboard/todolist' element={<ToDoList/>}/>
                 <Route   path='/dashboard/faq' element={<FAQ/>}/>
-
+                <Route   path='/dashboard/mentors' element={<Mentors/>}/>
+                <Route   path='/dashboard/Study' element={<Study/>}/>
             </Routes>
         </Router>
     )
