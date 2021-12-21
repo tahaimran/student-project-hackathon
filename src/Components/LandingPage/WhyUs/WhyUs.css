@@ -1,6 +1,7 @@
 .why{
     margin-top: 100px !important;
     margin-bottom: 100px !important;
+
 }
 .why h2{
     color: #050517;
@@ -9,6 +10,8 @@
 }
 .why .list{
     margin-top: 20px;
+    animation: openModal 1.2s ease-in ;
+
 }
 .why .list li{
     list-style-type: none;
@@ -22,5 +25,32 @@
 .why .list li:hover{
     transform:scale(1.05);
   transition-duration: 0.5s;
+
+}
+.why img{
+ animation: leftin 1.2s ease-in;
+ animation-direction:alternate-reverse;
+ animation: mover 1s infinite alternate;
+
+}
+
+@keyframes openModal {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(100%);   }
+}
+@keyframes leftin {
+    0% {transform: translateX(0%);}
+    100% {transform: translateX(100%);}
+
+}
+
+@keyframes mover {
+    0% {
+        transform: translateX(0px);
+    }
+
+    100% {
+        transform: translateX(-40px);
+    }
 
 }

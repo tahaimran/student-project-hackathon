@@ -1,6 +1,6 @@
 .upnext{
     margin-top: 100px !important;
-    background-color: #f7b496;
+    background-color: #ebe7e5;
     padding-top: 80px;
     padding-bottom: 80px;
 }
@@ -17,4 +17,7 @@
     transform: scale(1.1);
     transition-duration: 0.5s ;
 
+}
+.upnext h3{
+    font-weight: 600;
 }

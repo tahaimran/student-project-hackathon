@@ -2,13 +2,14 @@ import React from 'react'
 import SideNav from './SideNav/SideNav';
 import { Link } from 'react-router-dom';
 import './DashboardUser.css'
-import {LiveHelp, RecordVoiceOver,Book,ListAlt} from '@mui/icons-material'
+import {LiveHelp, RecordVoiceOver,Book,ListAlt, Logout} from '@mui/icons-material'
+import Logo from '../../logo.png'
 function DashboardUser() {
     return (
         <>
         <SideNav />
         <div className='container dashboard mt-5 text-center '>
-            <h2>{localStorage.getItem("name")} Explore Etudients</h2>
+            <h2>{localStorage.getItem("name")} Explore <img width={120} src={Logo} /></h2>
             <div className="row text-center ">
                 <div className="col-md-6">
                     <ListAlt sx={{ fontSize: 80 ,color : "pink"}}  />

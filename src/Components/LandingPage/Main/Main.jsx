@@ -5,7 +5,7 @@ import Button from '../../Button'
 
 
 function Main() {
-  
+
 
   return (
     <div className="container main ">
@@ -13,10 +13,7 @@ function Main() {
         <div className="col-md-6 info">
           <h2>Let Etudiants Evolve The Way You Learn</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-            modi natus error excepturi consequatur possimus laboriosam ipsum
-            aperiam adipisci repellat ex, repudiandae quod. Cum exercitationem
-            laboriosam commodi, molestiae esse quod!
+            Etudiants is here to evolve the way education is taking place. It's a modern-day era where our team is focused on long-term solutions. Etudiants will help you increase your learning productivity.
           </p>
           <Button />
         </div>

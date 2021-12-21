@@ -2,14 +2,57 @@
     margin-top: 70px !important;
     padding-bottom: 50px !important;
 }
-.main .info{
-    padding: 20px 50px 50px 50px;
+
+.main img {
+    animation: right 1s ease-in;
+    animation-direction: reverse;
+    animation: movers 1s infinite alternate;
 }
-.main .info h3,p{
+
+.main .info {
+    padding: 20px 50px 50px 50px;
+    animation: openModal 1s ease-in;
+
+}
+
+.main .info h3,
+p {
     margin-bottom: 30px !important;
 }
-.main p{
+
+.main p {
     font-size: 1em;
     color: #1D3557;
+}
+
+@keyframes openModal {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes right {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+
+}
+
+@keyframes movers {
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(-40px);
+    }
 
 }

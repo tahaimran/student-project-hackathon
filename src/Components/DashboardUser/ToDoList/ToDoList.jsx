@@ -1,12 +1,19 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 import './ToDoList.css'
 import SideNav from '../SideNav/SideNav'
 import DeleteIcon from '@mui/icons-material/Delete';
 
-
+const getLocalItems = () =>{
+    let list = localStorage.getItem('item');
+    if(list){
+        return JSON.parse(localStorage.getItem('item'))
+    }else{
+        return [];
+    }
+}
 function ToDoList() {
     const [inputData, setInput] = useState('');
-    const [items, setItems] = useState([]);
+    const [items, setItems] = useState(getLocalItems());
     const addItem = () => {
         if (!inputData) {
             alert("Add Task");
@@ -14,16 +21,24 @@ function ToDoList() {
             setItems([...items, inputData]);
             setInput('')
         }
+
     }
+   
+    
     const deleteItem = (index) => {
         const updatedItems = items.filter((elemet, ind) => {
             return  ind  !== index
         })
         setItems(updatedItems)
     }
+
     const deleteAll = () => {
         setItems([])
     }
+    useEffect(()=>{
+        localStorage.setItem('item',JSON.stringify(items));
+    },[items]);
+
     return (
         <>
         <SideNav/>

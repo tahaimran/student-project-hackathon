@@ -6,6 +6,7 @@ import FooterTop from './FooterTop/FooterTop';
 import FooterBot from './FooterBot/FooterBot';
 import WhyUs from './WhyUs/WhyUs'
 import UpNext from './UpNext/UpNext'
+import Founder from './Founder/Founder'
 function LandingPage() {
     return (
         <>
@@ -13,6 +14,7 @@ function LandingPage() {
            <Main />
            <Features />
            <WhyUs />
+           <Founder />
            <UpNext />
            <FooterTop />
            <FooterBot />

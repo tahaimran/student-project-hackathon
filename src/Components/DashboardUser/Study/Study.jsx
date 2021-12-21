@@ -1,6 +1,8 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import SideNav from '../SideNav/SideNav';
 import './Study.css'
+
+
 function Study() {
     const [addLink, setLinks] = useState('');
     const [addText, setTexts] = useState('');
@@ -10,7 +12,7 @@ function Study() {
     const change = (e) => {
         e.preventDefault();
         const newEntery = { addLink: addLink, addText: addText };
-      var aa =  setAllEntery([...allEntery, newEntery]);
+        setAllEntery([...allEntery, newEntery]);
 
         setLinks('');
         setTexts('')
@@ -19,6 +21,8 @@ function Study() {
         setAllEntery([])
 
     }
+  
+
     return (
         <>
             <SideNav />
@@ -30,12 +34,12 @@ function Study() {
                     <br /> <button onClick={change}>ADD</button>
                     <button onClick={deletea}>DELETE ALL</button>
                     {
-                        allEntery.map((ee, i) => {
+                        allEntery.map((element, index) => {
                             
                             return (
-                                <div className='mt-5' key={i}>
+                                <div className='mt-5' key={index}>
                                   
-                                    <li> <p >{ee.addText}</p> <a target="_blank" href={ee.addLink}><button>Visit</button> </a>   </li>
+                                    <li> <p >{element.addText}</p> <a target="_blank" href={element.addLink}><button>Visit</button> </a>   </li>
                                 </div>
 
                             )

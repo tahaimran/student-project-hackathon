@@ -4,7 +4,7 @@
 .features{
     margin: 100px auto !important;
     margin-bottom: 40px !important;
-    background-color: #f7b496;
+    background-color: #EBE7E5;
     padding-top: 80px;
     padding-bottom: 80px;
 }
@@ -18,15 +18,42 @@
 
 .features .icons{
     cursor: pointer;
-    color: #050517;
+    color: #f7b496;
 
 }
 .features .icons:hover{
-    color: white;
+    color: rgb(255, 110, 52);
     transition: 0.3s ease-in-out;
     
 }
 .features p{
     font-size: 18px;
-    color: white;
+    color: #1D3557;
+}
+.features .left{
+    animation: openModal 1s ease-in;
+
+}
+.features .right{
+    animation: right 1s ease-in;
+    animation-direction: reverse;
+}
+.features .mid{
+    animation: mid 1s ease-in;
+
+}
+
+@keyframes openModal {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(100%);   }
+}
+@keyframes right {
+    0% {transform: translateX(0%);}
+    100% {transform: translateX(100%);}
+
+}
+@keyframes mid {
+    0% {transform: translateY(100%);}
+    100% {transform: translateY(0%);}
+
 }

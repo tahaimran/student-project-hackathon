@@ -1,0 +1,30 @@
+.founder img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.founder img:hover {
+    transform: scale(1.2);
+    transition-duration: 1s;
+   box-shadow: 0px 10px 8px #1D3557;
+
+}
+
+.founder p{
+    font-size: 1.7em;
+    width: 600px;
+    margin: 5px auto;
+    font-weight: 500;
+}
+.founder h2{
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.founder{
+    animation: openModal 2s ease-out ;
+
+}
+@keyframes openModal {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(0);   }
+}
