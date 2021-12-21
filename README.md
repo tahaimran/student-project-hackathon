@@ -1,4 +1,4 @@
-# My Pocket Expense App
+# Etudiants Education App
 Etudiants is here to evolve the way education is taking place. It's a modern-day\
 era where our team is focused on long-term solutions. Etudiants will help you\
 increase your learning productivity.
